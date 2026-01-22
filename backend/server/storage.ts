@@ -7,7 +7,7 @@ import {
   type MarketOption,
   type Position,
   type User,
-} from "@shared/schema";
+} from "../shared/schema";
 import { eq, desc, and } from "drizzle-orm";
 
 /**

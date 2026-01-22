@@ -2,10 +2,10 @@
 import type { Express } from "express";
 import type { Server } from "http";
 import { storage } from "./storage";
-import { api } from "@shared/routes";
+import { api } from "../shared/routes";
 import { z } from "zod";
 import { db } from "./db";
-import { markets, users } from "@shared/schema";
+import { markets, users } from "../shared/schema";
 import { eq } from "drizzle-orm";
 
 export async function registerRoutes(

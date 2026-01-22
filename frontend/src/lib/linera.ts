@@ -1,4 +1,4 @@
-import { api, buildUrl, type CreatePredictionRequest, type CreateVoteRequest } from "@shared/routes";
+import { api, buildUrl, type CreatePredictionRequest, type CreateVoteRequest } from "../shared/routes";
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 

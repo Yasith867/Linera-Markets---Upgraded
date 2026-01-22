@@ -1,7 +1,7 @@
 import { Link } from "wouter";
 import { Clock, Users, ArrowRight, CheckCircle2 } from "lucide-react";
 import { formatDistanceToNow, isPast } from "date-fns";
-import { type MarketWithDetail } from "@shared/schema";
+import { type MarketWithDetail } from "../shared/schema";
 import { clsx } from "clsx";
 
 export function PredictionCard({ prediction }: { prediction: MarketWithDetail }) {

@@ -1,6 +1,6 @@
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
-import { api, buildUrl } from "@shared/routes";
-import { type Market, type MarketWithDetail, type insertMarketSchema } from "@shared/schema";
+import { api, buildUrl } from "../shared/routes";
+import { type Market, type MarketWithDetail, type insertMarketSchema } from "../shared/schema";
 import { useToast } from "@/hooks/use-toast";
 import { z } from "zod";
 
