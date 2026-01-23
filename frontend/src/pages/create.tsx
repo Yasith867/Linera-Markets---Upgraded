@@ -2,7 +2,7 @@ import { Layout } from "@/components/layout";
 import { useForm, useFieldArray } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { insertMarketSchema } from "../shared/schema";
+import { insertMarketSchema } from "../../shared/schema";
 import { useCreateMarket } from "@/hooks/use-markets";
 import { CalendarIcon, Plus, Trash2, Rocket, Loader2 } from "lucide-react";
 import { format } from "date-fns";
